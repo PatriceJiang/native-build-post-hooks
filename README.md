@@ -17,7 +17,7 @@ iOS 工程自动执行 `pod install`
 ```bash
 #!/bin/bash
 
-cp Podfile $1
-cd $1
+cp Podfile $1/proj
+cd $1/proj
 pod install
 ```
