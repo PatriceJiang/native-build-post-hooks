@@ -1,0 +1,16 @@
+{
+    "name": "native-build-post-hook",
+    "title": "i18n:native-build-post-hook.title",
+    "package_version": 2,
+    "version": "1.0.0",
+    "author": "Patrice Jiang",
+    "description": "i18n:native-build-post-hook.description",
+    "contributions": {
+        "builder": "./dist/builder.js"
+    },
+    "dependencies": {
+        "@types/fs-extra": "^5.0.4",
+        "@types/node": "^14.5.2",
+        "fs-extra": "^10.0.0"
+    }
+}
