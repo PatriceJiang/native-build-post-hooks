@@ -1,5 +1,5 @@
-# native-build-post-hooks
-Cocos Editor Build Plugin 
+
+# Cocos Editor Build Plugin 
 
 在构建后触发 bash/bat 脚本, 自动化对原生工程的修改
 
@@ -14,7 +14,7 @@ Cocos Editor Build Plugin
 iOS 工程自动执行 `pod install`
 
 `native/engine/ios/hooks/after-build.sh`
-```
+```bash
 #!/bin/bash
 
 cp Podfile $1
